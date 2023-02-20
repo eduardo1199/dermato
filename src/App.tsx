@@ -1,7 +1,7 @@
 import StakeImg from './assets/destaque.svg';
 import { Stake } from './components/Stake';
 
-function App() {
+export function App() {
   return (
     <div className="h-screen w-screen">
       <div className="flex justify-center">
@@ -10,5 +10,3 @@ function App() {
     </div>
   )
 }
-
-export default App
