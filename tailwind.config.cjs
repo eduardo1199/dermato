@@ -5,7 +5,15 @@ module.exports = {
     "./index.html",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        "c1": "#FFFFFF",
+        "c3": "#F7F1DF",
+        "c6": "#644B2C",
+        "c8": "#DC2428",
+        "c19": "#2E2E2E"
+      }
+    },
   },
   plugins: [],
 }
