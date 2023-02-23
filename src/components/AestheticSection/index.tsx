@@ -2,7 +2,7 @@ import { cardsAestheticContent } from "./utils"
 import { AestheticServicesCard } from "../AestheticServicesCard"
 import { SectionTitle } from "../SectionTitle"
 
-export function SectionAesthetic() {
+export function AestheticSection() {
   return (
     <div className="flex justify-center bg-c4">
       <div className="w-[1165px] flex flex-col gap-20">

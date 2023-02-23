@@ -8,6 +8,7 @@ module.exports = {
     extend: {
       colors: {
         "c1": "#FFFFFF",
+        "c2": "#FCF8F5",
         "c3": "#F7F1DF",
         "c4": "#E4D0B4",
         "c5": "#7E623C",
