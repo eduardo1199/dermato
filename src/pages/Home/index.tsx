@@ -3,6 +3,7 @@ import { AestheticSection } from '../../components/AestheticSection'
 import { DermatologicalSection } from '../../components/DermatologicalSection'
 import { ClientsFeedback } from '../../components/ClientsFeedback'
 import { Instructions } from '../../components/Instructions'
+import { SummaryContact } from '../../components/SummaryContact'
 
 export function Home() {
   return (
@@ -19,6 +20,10 @@ export function Home() {
 
       <div className="flex flex-1 bg-c4 justify-center">
         <ClientsFeedback />
+      </div>
+
+      <div className="flex flex-1 bg-c6 justify-center">
+        <SummaryContact />
       </div>
     </div>
   )
